@@ -27,15 +27,15 @@ Es necesario enviar la fecha que se requiere consulta (consulta por del día). E
 **Response**
 ```json
 {
-	"items":  [
-		{
-			"workstation":  "Estacion 1",
-			"alias":  "Alias de Estacion",
-			"part":{
-				"name":  "parte 1",
-				"alias":  "Alias de Parte 1",
-				"count":  "200.0"
-			},
+  "items":  [
+    {
+      "workstation":  "Estacion 1",
+      "alias":  "Alias de Estacion",
+      "part":{
+      "name":  "parte 1",
+      "alias":  "Alias de Parte 1",
+      "count":  "200.0"
+	},
 			"date":  "2023-02-01",
 			"schedule":  "17:00-03:00"
 		}
@@ -45,5 +45,5 @@ Es necesario enviar la fecha que se requiere consulta (consulta por del día). E
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM1NDk0NjcsMTAzMDYxMjMzOV19
+eyJoaXN0b3J5IjpbLTQyMTgzMTI3NSwxMDMwNjEyMzM5XX0=
 -->
