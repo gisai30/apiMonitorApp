@@ -12,21 +12,21 @@ El siguiente servicio se puede consultar la cantidad de Unidades trabajadas de l
 `GET /api/dashboard`
 
 **Params**
-```
+```js
 {
 	date: 'YYYY-MM-DD HH:mm:ss'
 }
 ```
 Es necesario enviar la fecha que se requiere consulta (consulta por del día). Es necesario enviar la *fecha* y *hora* ya que se toma en cuenta la hora para saber con exactitud el *horario* de la consulta. Los casos en los que se presenta esto son en horarios nocturnos en días posteriores. Ejemplo
 
-```
+```js
 {
 	date: '2023-02-02 01:20:00'
 }
 ```
 **Response**
-
-    {
+```json
+{
 	"items":  [
 		{
 			"workstation":  "Estacion 1",
@@ -39,12 +39,11 @@ Es necesario enviar la fecha que se requiere consulta (consulta por del día). E
 			"date":  "2023-02-01",
 			"schedule":  "17:00-03:00"
 		}
-	]}
-
-
-
+	]
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTkwODA1MTEsMTAzMDYxMjMzOV19
+eyJoaXN0b3J5IjpbLTExNDM1NDk0NjcsMTAzMDYxMjMzOV19
 -->
