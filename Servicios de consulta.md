@@ -32,18 +32,18 @@ Es necesario enviar la fecha que se requiere consulta (consulta por del día). E
       "workstation":  "Estacion 1",
       "alias":  "Alias de Estacion",
       "part":{
-      "name":  "parte 1",
-      "alias":  "Alias de Parte 1",
-      "count":  "200.0"
-	},
-			"date":  "2023-02-01",
-			"schedule":  "17:00-03:00"
-		}
+        "name":  "parte 1",
+        "alias":  "Alias de Parte 1",
+        "count":  "200.0"
+	    },
+      "date":  "2023-02-01",
+	  "schedule":  "17:00-03:00"
+	  }
 	]
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTgzMTI3NSwxMDMwNjEyMzM5XX0=
+eyJoaXN0b3J5IjpbLTc1MDczODkwNywxMDMwNjEyMzM5XX0=
 -->
