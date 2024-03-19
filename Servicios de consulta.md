@@ -27,8 +27,8 @@ Es necesario enviar la fecha que se requiere consulta (consulta por del día). E
 **Response**
 ```
 {
-	"items":  [
-		{
+  "items":  [
+    {
 			"workstation":  "Estacion 1",
 			"alias":  "Alias de Estacion",
 			"part":{
@@ -41,7 +41,23 @@ Es necesario enviar la fecha que se requiere consulta (consulta por del día). E
 		}
 	]
 }
+{
+  "items":  [
+    {
+			"workstation":  "Estacion 1",
+			"alias":  "Alias de Estacion",
+			"part":{
+				"name":  "parte 1",
+				"alias":  "Alias de Parte 1",
+				"count":  "200.0"
+			},
+			"date":  "2023-02-01",
+			"schedule":  "17:00-03:00"
+		}
+	]
+}
+{
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDYxMjMzOV19
+eyJoaXN0b3J5IjpbLTIwMTEwMDcyMjgsMTAzMDYxMjMzOV19
 -->
