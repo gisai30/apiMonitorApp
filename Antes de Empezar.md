@@ -17,26 +17,27 @@ El token es único por servicio proporcionado por Monitor, y deberá de ser úni
 En caso de requerirlo podemos compartir las siguientes etiquetas de información:
 
  - **workstatio**: estación de trabajo o máquina a monitorear 
- - "date": fecha que se genera la información 
- - "part serial": sku o número de identificación de la parte 
- - "part count": número de piezas que fueron producidas 
- - "OEE": KPI de negocio para integrar 
- - "Rendimiento": porcentaje de cumplimiento de velocidad 
- - "Calidad": porcentaje de calidad 
- - "Disponiblidad": porcentaje que la máquina esta lista para producir 
- - "Downtime %": porcentaje de tiempo de inactividad 
- - "Work Order": orden de fabricación que se esta trabajando 
- - "Bad parts": Cantidad de piezas malas 
- - "Defects": Tipo de defecto y cantidad 
- - "Downtime seconds": tiempo muerto en segundos por día 
- - "Cicle time": Tiempo ciclo promedio en la última hora 
- - "Parts per hour": trabajos hechos en la última hora 
- - "Start Time": hora de inicio del último turno 
- - "Finish Time": hora de fin del último turno 
- - "Downtime Causes": Causas de tiempo muerto, en formato causa - tiempo en segundos del último turno 
- - "MTTR": Mean time to repair del último turno 
- - "MTBF": Mean time between failures del último turno
+ - **date**: fecha que se genera la información 
+ - **part serial**: sku o número de identificación de la parte 
+ - **part count**: número de piezas que fueron producidas 
+ - **OEE**: KPI de negocio para integrar 
+ - **Rendimiento**: porcentaje de cumplimiento de velocidad 
+ - **Calidad**: porcentaje de calidad 
+ - **Disponiblidad**: porcentaje que la máquina esta lista para producir 
+ - **Downtime %**: porcentaje de tiempo de inactividad 
+ - **Work Order**: orden de fabricación que se esta trabajando 
+ - **Bad parts**: Cantidad de piezas malas 
+ - **Defects**: Tipo de defecto y cantidad 
+ - **Downtime seconds**: tiempo muerto en segundos por día 
+ - **Cicle time**: Tiempo ciclo promedio en la última hora 
+ - **Parts per hour**: trabajos hechos en la última hora 
+ - **Start Time**: hora de inicio del último turno 
+ - **Finish Time**: hora de fin del último turno 
+ - **Downtime Causes**: Causas de tiempo muerto, en formato causa - tiempo en segundos del último turno 
+ - **MTTR**: Mean time to repair del último turno 
+ - **MTBF**: Mean time between failures del último turno
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDI5NjA5NywtMTExMjg5ODM0N119
+eyJoaXN0b3J5IjpbLTIxMjU1NTE0MTUsLTExMTI4OTgzNDddfQ
+==
 -->
